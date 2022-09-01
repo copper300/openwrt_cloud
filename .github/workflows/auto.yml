@@ -22,7 +22,9 @@ on:
 env:
   # REPO_URL: https://github.com/coolsnowwolf/lede
   # REPO_BRANCH: master
-  REPO_URL: https://github.com/Lienol/openwrt
+  # REPO_URL: https://github.com/Lienol/openwrt
+  # REPO_BRANCH: 21.02
+  REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: 21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: open64.config
