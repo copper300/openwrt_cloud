@@ -104,7 +104,7 @@ jobs:
       id: package
       run: |
         cd openwrt
-        sed -i "s/dnsmasq/dnsmasq-full/g" include/target.mk
+        # sed -i "s/dnsmasq/dnsmasq-full/g" include/target.mk
         make defconfig
         make download -j8
         find dl -size -1024c -exec ls -l {} \;
