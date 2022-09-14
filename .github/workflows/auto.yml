@@ -105,7 +105,7 @@ jobs:
       run: |
         cd openwrt
         # sed -i "s/dnsmasq/dnsmasq-full/g" include/target.mk
-        make defconfig
+        # make defconfig
         make download -j8
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
